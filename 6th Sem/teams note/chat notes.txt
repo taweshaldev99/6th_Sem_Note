@@ -1,0 +1,82 @@
+https://www.geeksforgeeks.org/web-mining/
+-------------------------------------------------------------------------------------------------------------------
+
+Classification
+
+
+Classification is also known as supervised learning.
+
+Historical Data->Experience->Future data classify
+
+
+This is also supervised learning because in classification historical data is used to create a model so that future data is classified on the basis of that model.
+
+
+Historical data is also known as Traning data set
+
+
+Future data is also known as Test data set
+
+
+In classification, from training set data, we create a model. For model, we create a decision tree and implement it on test data set.
+
+
+In order to create a model.i.e decision tree, we need attributes and class labels.
+
+
+In the pdf example, Class label are yes and no.
+
+
+attributes are age, income, student, credit_rating
+
+
+Tree are made of nodes. Starting node is know as root node. Last node is known as leaf node.
+
+
+Root node and child nodes are always attributes.
+
+Last node or leaf node are class labels
+
+In order to make decision tree for classification, we dont do random approach. We use and algorithm known as ID3 algorithm (Iterative Dichotomiser 3 algorithm)
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+[12:56 PM] Deepak Khadka
+    
+Classicfication is 2 step process
+​[12:56 PM] Deepak Khadka
+    
+
+Create the model. In which we choose to make a decision tree. In order to reduce randomness in attribute selection while making decision tree, we use an algorithm known and ID 3 algorithm
+
+​[12:57 PM] Deepak Khadka
+    
+Today lesson:
+
+    
+ How to select attribute using ID3 algorithm?
+
+    
+How to select attributes from data by using information gain?
+
+    
+
+Model decision tree
+
+Algorithm (ID3)
+
+Information Gain
+Gini Index
+Gain ration.
+
+-----------------------------------------------------------------------------------------------------------------
+https://www.geeksforgeeks.org/ml-k-medoids-clustering-with-example/
+K-Medoid Algorithm
+Clustering
+Typer of clustering
+Partitioning methodK MeanK Medoid algorithm
+Euclidean Distance
+Manhattan Distance
+
+

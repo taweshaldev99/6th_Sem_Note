@@ -1,0 +1,38 @@
+Association Rule mining is 2 step process:
+
+We generate Frequent ItemsetsWe generate rules from the frequent itemsets which were generated in no 1 step.
+
+For no 1 step, we use an algorithm, which is also known as "Apriori Algorithm"
+
+To distinguish frequent itemsets from given itemsets, we need a minimum thresold. Those itemsets which are equal to or above thresold are known as frequent itemsets
+
+
+
+
+Association rule mining is 2 step process.
+
+1st step is to generate frequent itemset by applying apriori algoritm
+2nd step is to generate rules from the frequent itemsets wihch were generated in 1st step.
+3rd step is to compute confidence of each rule generated
+4th step is to discard those rules which are below confidence
+Rules which are above or equal to confidence are the final rules which are generated
+
+
+
+Every data mining tasks is completed with an alogirthm or mathematical function or diagrammatic approach.
+
+Association Rule Mining- We used Apriori Algorithm
+
+Prediction- We use mathematical formula known as regression.
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+1. Count Frequency of Every Item of Database
+2. Rearrange the database in order of frequency in decreasing manner
+3. Generate a general FP Tree for overall  database 
+4. Create Conditional FP Tree for each and every item of database by using general FP tree as reference
+
+
+
